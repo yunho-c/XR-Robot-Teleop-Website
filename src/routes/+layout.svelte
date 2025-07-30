@@ -21,7 +21,7 @@ let { data, children } = $props();
 <PageLoader />
 
 <div class="max-w-container mx-auto flex min-h-dvh min-h-screen flex-col">
-  <header class="flex flex-row px-4 py-8 md:p-8">
+  <header class="flex flex-row px-4 py-4 md:p-6">
     <figure>
       <a class="flex flex-row items-center gap-4" href="/" title={config.siteTitle}>
         <Logo />
@@ -73,7 +73,7 @@ let { data, children } = $props();
       </ul>
     </nav>
 
-    <div class="copy px-4 py-8 text-xl md:p-8">
+    <div class="copy px-4 py-8 text-l md:p-8 text-current/50">
       <p>
         &copy; {new Date().getFullYear()}
         {config.siteTitle} <span class="mx-2 inline-block">|</span> Built with

@@ -1,5 +1,5 @@
 ---
-title: 'XR Robot Teleop'
+title: 'XR-Robot-Teleop'
 subtitle: 'a robot teleoperation client for VR/AR headsets'
 # date: 2024-08-22
 pinned: true
@@ -19,6 +19,6 @@ import Button from '$lib/Button.svelte'
 For more information, visit the [project page on GitHub](https://github.com/yunho-c/XR-Robot-Teleop).
 
 <Action>
-    <Button href="https://github.com/lemmon/tablog-svelte">Download @ Meta App Store</Button>
-    <Button href="https://github.com/lemmon/tablog-svelte">Download @ Meta App Lab</Button>
+    <Button href="https://github.com/yunho-c/XR-Robot-Teleop">Download @ GitHub</Button>
+    <!-- <Button href="https://TODO.com">Download @ Meta App Lab</Button> -->
 </Action>
