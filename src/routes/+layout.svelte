@@ -48,7 +48,7 @@ let { data, children } = $props();
         <li>
           <a
             class="flex flex-row gap-0.5 p-2"
-            href="https://github.com/yunho-c/XR-Robot-Teleop"
+            href="https://github.com/yunho-c/XR-Robot-Teleop-Client"
             target="_blank"
             rel="external noreferrer nofollow"
             ><span class="underline">GitHub</span><span class="text-current/20">&#8599;</span></a
