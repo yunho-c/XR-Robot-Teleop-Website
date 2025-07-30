@@ -24,7 +24,9 @@ let { data, children } = $props();
   <header class="flex flex-row px-4 py-4 md:p-6">
     <figure>
       <a class="flex flex-row items-center gap-4" href="/" title={config.siteTitle}>
-        <Logo />
+        <div class="pt-8">
+          <Logo />
+        </div>
         <!-- display site title next to the logo
         <h1 class="text-3xl leading-none tracking-tight">{config.siteTitle}</h1>
         -->

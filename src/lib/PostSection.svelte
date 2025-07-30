@@ -14,7 +14,7 @@ let { post } = $props();
 </script>
 
 {#key post.id}
-  <section class="py-8">
+  <section class="py-4">
     <article>
       <Header>{post.title}</Header>
       {#if post.subtitle}
