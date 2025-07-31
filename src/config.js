@@ -1,6 +1,6 @@
 const config = {
-  siteTitle: 'XR-Robot-Teleop-Client',
-  siteTagline: 'Robot Teleoperation Client for VR/AR Headsets',
+  siteTitle: 'XR-Robot-Teleop-*',
+  siteTagline: 'a robot teleoperation system for XR headsets',
   archiveTitle: 'Archive',
   dateFormat: 'MMM dd, yyyy',
 };
