@@ -3,12 +3,14 @@
     --border-width: 1.5px;
     --vpadding: 1rem;
     --hpadding: 1.5rem;
-    display: block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     padding: calc(var(--vpadding) - var(--border-width)) calc(var(--hpadding) - var(--border-width));
     border: var(--border-width) solid;
     border-radius: 9999px;
     min-width: 8rem;
-    text-align: center;
     &:hover {
       color: var(--color-background);
       background-color: var(--color-text);

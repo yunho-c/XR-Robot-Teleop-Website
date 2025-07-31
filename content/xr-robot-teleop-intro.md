@@ -8,6 +8,7 @@ pinned: true
 <script>
 import Action from '$lib/Action.svelte'
 import Button from '$lib/Button.svelte'
+import GitHubLogo from "phosphor-svelte/lib/GithubLogo";
 </script>
 
 
@@ -18,21 +19,26 @@ import Button from '$lib/Button.svelte'
 > ⚠️ Currently, `XR-Robot-Teleop-Client` only supports Meta Quest headsets.
 
 <Action>
-    <Button href="https://TODO.com">Download @ Meta App Lab</Button>
-    <Button href="https://github.com/yunho-c/XR-Robot-Teleop-Client">GitHub</Button>
+  <Button href="https://TODO.com">Download @ Meta App Lab</Button>
+  <Button href="https://github.com/yunho-c/XR-Robot-Teleop-Client">
+    <GitHubLogo size="24" color="#8B5CF6" weight="duotone" />
+    GitHub
+  </Button>
 </Action>
 
-[`XR-Robot-Teleop-Server`](https://github.com/yunho-c/XR-Robot-Teleop-Server) is a companion project written in Python that receives the body pose data. You can define custom callback functions (which are invoked every time the data is received) to visualize or **integrate into a robotic simulator**. 
+[`XR-Robot-Teleop-Server`](https://github.com/yunho-c/XR-Robot-Teleop-Server) is a companion project written in Python that receives body pose data. You can define custom callback functions (which are invoked every time the data is received) to visualize or **integrate into a robotic simulator**. 
 
 ```bash
 pip install xr-robot-teleop-server
 ```
 
 <Action>
-    <!-- <Button href="https://github.com/yunho-c/XR-Robot-Teleop-Server">Download @ PyPI</Button> -->
-    <Button href="https://github.com/yunho-c/XR-Robot-Teleop-Server">GitHub</Button>
+  <Button href="https://pypi.org/project/xr-robot-teleop-server">View @ PyPI</Button>
+  <Button href="https://github.com/yunho-c/XR-Robot-Teleop-Server">
+    <GitHubLogo size="24" color="#8B5CF6" weight="duotone" />
+    GitHub
+  </Button>
 </Action>
-
 
 ### Demo
 
