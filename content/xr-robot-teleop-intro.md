@@ -69,3 +69,11 @@ TODO: Fix the default FPS and get rid of log/warning sidebar
 ```
 
 <br>
+
+#### Docs: Bone Frame
+
+<br>
+
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.rerun.io/index.html?url=https://xr-robot-teleop-website.pages.dev/assets/visualize_bone_frames.rrd" title="XR-Robot-Teleop Bone Frame" ></iframe>
+
+<br>
